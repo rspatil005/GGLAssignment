@@ -44,6 +44,8 @@ public class TestCore {
 	public static int mails=0;
 	public static boolean OldermailButton=true;
 
+	
+//	changes
 	@BeforeSuite
 	public void init() throws IOException{
 		if (driver==null) {
