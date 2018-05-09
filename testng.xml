@@ -1,0 +1,71 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GoogleAssignment_Using_DataDriven">
+
+ <listeners>
+<listener class-name="dd_util.TestListenerAdapter"/>
+</listeners>
+  
+<test name="TC_01">
+    <classes>
+        <class name="dd_Test.TC_01" ></class>  
+    </classes>
+</test>
+<!--  
+<test name="TC_02">
+    <classes>
+        <class name="dd_Test.TC_02" ></class>  
+    </classes>
+</test>
+ 
+ 
+<test name="TC_03">
+    <classes>
+        <class name="dd_Test.TC_03" ></class>
+    </classes>
+</test>
+  
+ <test name="TC_04">
+    <classes>
+        <class name="dd_Test.TC_04" ></class>
+    </classes>
+</test>
+
+<test name="TC_05">
+    <classes>
+        <class name="dd_Test.TC_05" ></class>
+    </classes>
+</test>
+ 
+ <test name="TC_06">
+    <classes>
+        <class name="dd_Test.TC_06" ></class>
+    </classes>
+</test>
+
+ <test name="TC_07">
+    <classes>
+        <class name="dd_Test.TC_07" ></class>
+    </classes>
+</test>
+
+ <test name="TC_08">
+    <classes>
+        <class name="dd_Test.TC_08" ></class>
+    </classes>
+</test>
+ -->
+ <!-- 
+ <test name="TC_09">
+    <classes>
+        <class name="dd_Test.TC_09" ></class>
+    </classes>
+</test>
+
+ <test name="TC_10">
+    <classes>
+        <class name="dd_Test.TC_10" ></class>
+    </classes>
+</test>
+ -->
+  
+</suite>
